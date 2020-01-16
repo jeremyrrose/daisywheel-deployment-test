@@ -1,7 +1,7 @@
 import Axios from 'axios'
 
 const Api = Axios.create({
-  baseURL: 'http://localhost:3000'
+  baseURL: 'https://daisywheel.herokuapp.com/'
 })
 
 export default Api
